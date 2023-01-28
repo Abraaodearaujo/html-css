@@ -1,1 +1,1 @@
-os dados foram esviados
+os dados foram enviados
