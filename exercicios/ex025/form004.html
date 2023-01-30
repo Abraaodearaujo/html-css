@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de formulario</title>
+    <style>
+        body{
+            background-color: rgb(70, 69, 69);
+        }
+    </style>
+</head>
+<body>
+    <form method="get">
+        <p>
+            <label for="iemail">Email:</label>
+            <input type="email" name="email" id="iemail" required>
+        </p>
+        <p>
+            <label for="itel">Telefone:</label>
+            <input type="tel" name="tel" id="itel" autocomplete="tel-national" pattern="[0-9]{4}-[0-9]" required>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Linpar">
+        </p>
+
+    </form>
+</body>
+</html>
