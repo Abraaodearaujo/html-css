@@ -1,3 +1,8 @@
 @charset "UTF-8";
 
 /*Aparelho em pe (portrat)*/
+
+body {
+    background-color: black;
+    color: white;
+}
