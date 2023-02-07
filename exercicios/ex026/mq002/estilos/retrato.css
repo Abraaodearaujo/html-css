@@ -3,6 +3,6 @@
 /*Aparelho em pe (portrat)*/
 
 body {
-    background-color: black;
-    color: white;
+    background-image: url(../imagens/cev-portrait.jpg);
+    background-position: center bottom;
 }
