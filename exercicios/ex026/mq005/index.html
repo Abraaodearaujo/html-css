@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Media Query</title>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <span class="material-symbols-outlined" id="burger" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Option 1</a></li>
+                <li><a href="#">Option 2</a></li>
+                <li><a href="#">Option 3</a></li>
+                <li><a href="#">Option 4</a></li>
+                <li><a href="#">Option 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Confira a lista de ambulantes palmenses sorteados para trabalhar no Capital da Fé 2023</h2>
+            <p>Sorteio de 34 comerciantes ocorreu na tarde desta sexta-feira (10), no Centro de Convenções Arnaud Rodrigues. Eles terão que passar por curso sobre manipulação de alimentos antes do evento.</p>
+            <p>Os vendedores ambulantes que irão trabalhar no Palmas Capital da Fé 2023, evento realizado no feriado de carnaval, foram sorteados nesta sexta-feira (10). Ao todo, 34 comerciantes vão poder vender alimentos e artesanato durante os cinco dias de evento.</p>
+            <p>A programação do Capital da Fé foi anunciada no dia 30 de janeiro. A festa religiosa está marcada para acontecer de 17 a 21 de fevereiro. Entre atrações estão o padre Fábio de Melo, Rosa de Saron, Cassiane, Pregador Luo, entre outros artistas.</p>
+            <p>Para conferir a lista de candidatos, acesse o site da prefeitura <a href="https://agenciapalmas.com/">aqui.</a></p>
+            <p>O sorteio aconteceu durante a tarde desta sexta-feira, no auditório do Centro de Convenções Arnaud Rodrigues. Uma das condições para que os ambulantes possam vender produtos no evento é a participação em um curso de boas práticas de manipulação de alimentos. Ele será ministrado pela Vigilância Sanitária Municipal na terça-feira (14), às 9h, na Casa do Empreendedor</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+         if (itens.style.display == 'block') {
+            itens.style.display = 'none'
+        } else {
+            itens.style.display = 'block'
+        }
+}
+    </script>
+</body>
+</html>
